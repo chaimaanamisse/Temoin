@@ -1,0 +1,18 @@
+ 1-API
+ il s'agit de créer un accès à une application et permettre de venir y consommer des données ou des fonctionnalités. 
+ Ainsi, vous pouvez, avec une autre application ou un site, venir interroger l'application et utiliser ses données.
+
+2-REST 
+REpresentative State Transfer
+Lors de la création de notre API, nous devons garder en tête les critères qui en font une API REST. Une API REST se doit d'être :
+
+Sans état : le serveur ne fait aucune relation entre les différents appels d'un même client. Il ne connaît pas l'état du client entre ces transactions
+
+Cacheable : le client doit être capable de garder nos données en cache pour optimiser les transactions
+
+Orienté client-serveur : Il nous faut une architecture client-serveur
+
+Avec une interface uniforme : ceci permet à tout composant qui comprend le protocole HTTP de communiquer avec votre API
+
+Avec un système de couches : avec des serveurs intermédiaires, le client final ne doit pas savoir si il est connecté au serveur principal ou à un serveur intermédiaire
+
